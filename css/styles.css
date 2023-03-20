@@ -87,6 +87,41 @@
 
 
 
+/* third-body */
+
+
+.ttext{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #603809 ;
+}
+.stext{
+    color: #707070;
+    font-size: 1rem;
+    margin-bottom: 40px;
+
+}
+/* .crds{
+    width: 50px;
+    height: 50px;
+} */
+.card-img-top{
+    left: 0;
+   
+}
+.card{
+    margin-top: 100px;
+    
+    margin: 0 35px;
+}
+/* #third-body{
+    background-image: url(/images/blastr.png);
+    background-repeat: no-repeat;
+    background-position: 100% 150%;
+} */
+
+
 
 
 
@@ -134,7 +169,14 @@
     height: 800px;
 }
 #second-body{
-    background-image: hidden;
+    background-position: 0 -10;
+}
+#third-body{
+    display: flex;
+    align-content: center;
+}
+.mbl{
+    margin-right: 100px;
 }
 
 }
